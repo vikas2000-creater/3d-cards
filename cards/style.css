@@ -1,0 +1,103 @@
+body
+{
+	background-color: #F1E9E5;
+}
+section
+{
+	width:350px; 
+	height:370px; 
+	margin:10rem auto; 
+	position: relative; 
+	perspective: 800px;  
+
+
+} 
+ div
+ {
+   
+    width:100%; 
+    height: 100%;  
+}  
+img
+{
+	width:100%;
+	height: 100%; 
+	border-radius: 10px;
+}
+.item:hover
+{
+	transform: rotateY(-180deg); 
+	cursor: pointer;
+} 
+.item
+{
+	border: 1px red; 
+	transition: 2s;  
+	transform-style: preserve-3d;
+} 
+.sidea ,.sb
+{
+	backface-visibility: hidden;
+		border-radius: 10px;
+}   
+div #ler
+{
+	margin:50px 120px; 
+	font-size: 2rem;
+} 
+.day
+{
+height: 30%; 
+color:white; 
+border:1px solid white;
+background-image:url("img.jpeg"); 
+border-top-left-radius: : 10px;
+border-top-right-radius: 10px;
+}
+.cer
+{
+	width: 80%; 
+	margin: 0 auto;
+	height: 60%; 
+	margin-top: 50px; 
+	
+}  
+#jert
+{
+	font-size:70px; 
+	color:white; 
+	margin-top: 40px;
+}
+.cer h1
+{
+	border-bottom: 1px solid #EBE6E6; 
+	text-align: center;
+}
+.abc
+{
+	color:white;  
+	height: 50%;
+	width: 80%; 
+	margin: 120px auto; 
+	text-align: center;  
+	font-family: 'Palette Mosaic', cursive;
+
+}
+ .sidea
+ {
+ 	position:absolute;
+ 	z-index: 1;  
+ 	background-image: url('images.jfif');
+ } 
+ .sb
+ {
+ 	position: absolute;
+ 	transform: rotateY(180deg);  
+ 	background-color: white; 
+
+ }  
+  .cer h1
+ {
+ 	font-size: 13px;
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ }
